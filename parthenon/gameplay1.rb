@@ -119,4 +119,135 @@ def question2
 end
 
 question2
+sleep(5.0)
+puts ". . . Right into a new danger"
+sleep(2.0)
+puts " ATHENA: Captain, we seem to be on a new collision course with a substantial asteroid field"
+puts
+sleep(2.0)
+puts "ATHENA: What are your orders"
+sleep(2.5)
+def question3
+    puts
+    puts "1 - Use autopilot to autonomously maneuver through the asteroid field"
+    puts
+    puts "2 - Do nothing and hope for the best"
+    puts
+    puts "3 - Take manual control of the ship"
+
+    answer3 = gets.chomp.to_i
+    if answer3 == 1
+        puts
+        puts "The autopilot systems have deteriorated over the long voyage. The system is unable to change its course in time and the Parthenon collides directly into an asteroid. Humanity is lost."
+        sleep(2.0)
+        puts
+        puts "Try again?"
+        sleep(2.0)
+        question3
+    elsif answer3 == 2
+        puts
+        puts "You fool! This is obviously the wrong choice and now all of humanity is dead. Great job."
+        sleep(2.0)
+        puts
+        puts "Try again?"
+        sleep(2.0)
+        question3
+    elsif answer3 == 3
+        puts
+        puts "Mustering all the courage you have, you grab the joy-stick and prepare for incoming danger"
+
+    end
+end
+question3
+
+sleep(5.0)
+puts" Navigating through this mess won't be easy. But you passed pilot training (on paper)"
+sleep(3.0)
+puts "ATHENA: The controls are in your hands, captain"
+sleep(2.0)
+
+def question4
+    puts
+    puts "1 - Roll Right"
+    puts
+    puts "2 - Roll left"
+    puts
+    puts "3 - Pitch up"
+    puts
+    puts "4 - Pitch down"
+
+    answer4 = gets.chomp.to_i
+    if answer4 == 1
+        puts
+        puts "DEAD"
+        sleep(2.0)
+        puts
+        puts "Try again?"
+        sleep(2.0)
+        question4
+    elsif answer4 == 2
+        puts
+        puts "DEAD"
+        sleep(2.0)
+        puts
+        puts "Try again?"
+        sleep(2.0)
+        question4
+    elsif answer4 == 3
+        puts
+        puts " Using your super refined piloting skills you successfully soar over the asteroid field and away from danger"
+    elsif answer4 == 4
+        puts
+        puts "DEAD"
+        puts
+        puts"Try again?"
+        sleep(2.0)
+        question4
+
+    end
+end
+question4
+sleep(5.0)
+puts" After making it through the asteroid field, you decide to brew some coffee and read your favorite graphic novel to unwind. "
+sleep(3.0)
+puts "A few hours passs when another siren starts going off."
+sleep(2.0)
+puts " 'What is it this time??' You wonder "
+sleep(2.0)
+puts "ATHENA:Captain, it appears that intense gravitational forces are pulling on 'The Parthenon"
+sleep(2.0)
+puts "ATHENA: A singularity is imminent"
+sleep(2.0)
+def question5
+    puts
+    puts "1 - Try to use the energy of the blackhole to slingshot the ship"
+    puts
+    puts "2 - Steer away from the blackhole"
+    puts
+    puts "3 - Steer directly into the blackhole"
+
+    answer5 = gets.chomp.to_i
+    if answer5 == 1
+        puts
+        puts "The sheer amount high energy matter in the accretion disk rips the entire ship apart screw by screw, ending everything."
+        sleep(2.0)
+        puts
+        puts "Try again?"
+        sleep(2.0)
+        question5
+    elsif answer5 == 2
+        puts
+        puts "In your haste to avoid the singularity you steer the ship directly into an asteroid. Not good."
+        sleep(2.0)
+        puts
+        puts "Try again?"
+        sleep(2.0)
+        question5
+    elsif answer5 == 3
+        puts
+        puts "Going against all of your training, and intuition, you steer the ship directly into the maw of the singularity. Fingers crossed."
+
+    end
+end
+question5
 
